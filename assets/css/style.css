@@ -24,7 +24,7 @@ img {
 }
 
 .header-bg {
-  background-color: #000000;
+  background-color: #000;
 }
 
 .header {
@@ -161,4 +161,48 @@ img {
 
 .introducao a:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+@media (max-width: 600px) {
+  .introducao a {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 48px;
+  }
+
+  .introducao p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao-bg {
+    background: #111;
+    padding-top: 40px;
+    box-shadow: inset 0 -60px #fff;
+  }
+
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .introducao-conteudo {
+    padding-bottom: 0;
+  }
+
+  .introducao h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .introducao img {
+    height: 300;
+    width: 100%;
+  }
 }
