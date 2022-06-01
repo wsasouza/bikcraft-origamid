@@ -4,8 +4,7 @@
 
 .contato {
   display: grid;
-  grid-template-columns: 5fr 7fr;
-  margin-bottom: 200px;
+  grid-template-columns: 5fr 7fr;  
 }
 
 .contato-dados, 
